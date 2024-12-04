@@ -1,0 +1,7 @@
+.col {
+  display: flex;
+  gap: 1rem;
+}
+article {
+  background-color: lightgray;
+}

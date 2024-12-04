@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fan Site</title>
+    <link rel="stylesheet" href="../Style/Style.css" />
+    <link rel="stylesheet" href="../Style/Image.css" />
+    <link rel="stylesheet" href="../Style/feedback.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="headingbox">
+        <img
+          src="../Images/photo-library.avif"
+          alt="Fan Site Graphic"
+          class="header-img"
+        />
+        <h1>ReadSphere</h1>
+      </div>
+    </header>
+    <nav>
+      <ul class="top-nav">
+        <li><a href="../Index.html">Home</a></li>
+        <li><a href="./Image.html">Images</a></li>
+        <li><a href="./Video.html">Videos</a></li>
+        <li>
+          <a href="#">More</a>
+          <ul class="sub-nav">
+            <li><a href="#">Statistics</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1>From Controls</h1>
+      <div class="divbody">
+        <form action="process-form" class="from" method="post">
+          <div class="form-control">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="userName" />
+          </div>
+          <div class="form-control">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="userEmail" />
+          </div>
+          <div class="form-control">
+            <label>Feedback types: </label>
+            <select name="milk">
+              <option value="STM1">General</option>
+              <option value="STM2">Suggestion</option>
+              <option value="STM3">Complians</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="textarea">Give Feedback:</label>
+            <textarea
+              name="textarea"
+              id="textarea"
+              rows="10"
+              cols="25"
+            ></textarea>
+          </div>
+          <div class="form-control">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2024 ReadSphere. Designed by Pratham Mewada, 9018680.</p>
+    </footer>
+  </body>
+</html>
